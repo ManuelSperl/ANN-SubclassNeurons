@@ -30,65 +30,69 @@ public class DemoTest {
 	 */
 	public static void main(String[] args) throws Exception {
 
-		System.out.println("*** Creating feed forward network...");
 		XMLData xmlData = new XMLData();
+		int numberOfInputNeurons = 0;
+		int numberOfOutputNeurons = 0;
 
+		System.out.println("*** Creating feed forward network...");
+
+		/**small Dataset loaded**/
 		xmlData.loadXml(new File("Dataset/dataset"));
-		int numberOfInputNeurons = 2;
+
+		/**big Dataset loaded**/
+		//xmlData.loadXml(new File("Dataset/dataset_big"));
+
+		numberOfInputNeurons = xmlData.getNumberOfInputs();
+		numberOfOutputNeurons = xmlData.getNumberOfTargets();
 
 		//von XML lesen
 
 		NeuralNet net = NetFactory.createFeedForward(
-				new int[]{numberOfInputNeurons, 2, 2},	//#input neurons, #hidden neurons, #output neuron
+				new int[]{numberOfInputNeurons, 2, numberOfOutputNeurons},	//#input neurons, #hidden neurons, #output neuron
 				false,								//net fully connected?
 				new boone.map.Function.Sigmoid(),		//activation-function
 				new RpropTrainer(),						//Trainer
 				null, null);				//
 
-		double[][] inPatterns = new double[][]{{0, 0}, {0, 1}, {1, 0}, {1, 1}};
-		double[][] outPatterns = new double[][]{{0, 0}, {1, 0}, {1, 0}, {0, 0}};
+		xmlData.getInputPatterns();
+
 		PatternSet patterns = new PatternSet();
-		for (int i = 0; i < inPatterns.length; i++) {
-			patterns.getInputs().add(Conversion.asList(inPatterns[i]));
-			patterns.getTargets().add(Conversion.asList(outPatterns[i]));
+		for (int i = 0; i < xmlData.getSizeOfInputData(); i++) {
+			patterns.getInputs().add(Conversion.asList(xmlData.getInputPatterns()[i]));
+			patterns.getTargets().add(Conversion.asList(xmlData.getOuputPatterns()[i]));
 		}
-		int steps = 100;
-		int epochs = 10;
+
+		int epochs = 10; //steps = 1
 		Trainer trainer = net.getTrainer();
 		trainer.setTrainingData(patterns);
 		trainer.setTestData(patterns);
 		trainer.setEpochs(epochs);
-		trainer.setStepMode(true);											// training in steps
-		System.out.println("*** Training " + (steps * epochs) + " epochs...");
+		trainer.setStepMode(true);
+		System.out.println("*** Training " + epochs + " epochs...");
 		//trainer.setShuffle(true);
 		((BackpropTrainer)trainer).setMomentum(0.8);
 		//System.out.println("Error: ");
 
-		//for(int e=0; e<3; e++ ) {
-			for (int i = 0; i < steps; i++) {
-				trainer.train();
-				System.out.println((i * epochs) + ". - " + net.getTrainer().test());
-			}
+		trainer.train();
+		System.out.println(epochs + ". - " + net.getTrainer().test());
 
-			System.out.println("\n*** Testing the network...");
+		System.out.println("\n*** Testing the network...");
+		System.out.println();
 
-			System.out.println();
+		//int indexOfMaxError = -1;
+		double error = -1;
+		for (int i = 0; i < patterns.size(); i++){
+			error = net.getTrainer().test(patterns.getInputs().get(i), patterns.getTargets().get(i));
+			System.out.println("Error " + i + " = " + error);
 
-			int indexOfMaxError = -1;
-			double error = -1;
-			for (int i = 0; i < patterns.size(); i++){
-				error = net.getTrainer().test(patterns.getInputs().get(i), patterns.getTargets().get(i));
-				System.out.println("Error " + i + " = " + error);
+			//System.out.println("Anzahl-Outputneuron: " + net.getOutputNeuronCount());
 
-				//System.out.println("Anzahl-Outputneuron: " + net.getOutputNeuronCount());
-
-				//if(error > indexOfMaxError)
-				//	indexOfMaxError = i;
-			}
+			//if(error > indexOfMaxError)
+			//	indexOfMaxError = i;
+		}
 			//if(indexOfMaxError != -1){
 				//patterns.getTargets().get(indexOfMaxError)
 			//}
-		//}
 
 		System.out.println("Saving network");
 

@@ -23,29 +23,25 @@ public class XMLData {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         DocumentBuilder db = dbf.newDocumentBuilder();
         Document doc = db.parse(input);
-        Element root = doc.getDocumentElement();
-        //System.out.println(root.getTagName());
+        //Element root = doc.getDocumentElement();
         inputData = new ArrayList<>();
         targetData = new ArrayList<>();
 
         this.loadXmlItems(doc);
-
-        //itemList.displayItemList();
     }
 
        /**
      * loads the elements of the XML-File as items(Book, cd or list) into a given itemList
-     * @return the updated ItemList
      */
 
-    private void loadXmlItems(Document doc) throws Exception {
+    private void loadXmlItems(Document doc){
 
         NodeList nl = doc.getElementsByTagName("pattern");
-        System.out.println("Child length: " + nl.getLength());
+        //System.out.println("Child length: " + nl.getLength());
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < nl.getLength(); i++) {
             Node node = nl.item(i);
-            System.out.println("Node Name: " + node.getNodeName());
+            //System.out.println("Node Name: " + node.getNodeName());
 
             if (node.getNodeType() == Node.ELEMENT_NODE) {
                 Element element = (Element) node;
@@ -68,30 +64,73 @@ public class XMLData {
                     targetDataDouble.add(Double.parseDouble(s));
 
                 inputData.add(inputDataDouble);
-                System.out.println("\n ------ INPUT DATA -----");
-                arrayToString(inputData);
-
                 targetData.add(targetDataDouble);
-                System.out.println("\n ------ TARGET DATA -----");
-                arrayToString(targetData);
+
             }
-            /*int type = n.getNodeType();
-
-            if (type == Node.ELEMENT_NODE) {
-                Element e = (Element) n;
-
-                //add item to the current list
-                switch (e.getTagName()) {
-                    case "book" -> itemList.addItem(new Book(e.getAttribute("name"), Double.parseDouble(e.getAttribute("price")), Long.parseLong(e.getAttribute("isbn"))));
-                    case "cd" -> itemList.addItem(new Cd(e.getAttribute("name"), Double.parseDouble(e.getAttribute("price"))));
-                    case "list" -> itemList.addItem(this.loadXmlItems(e, new ItemList(e.getAttribute("name"))));
-                    default -> throw new Exception("Unknown Type : " + e.getTagName());
-                }
-            }*/
         }
+        //System.out.println("\n ------ INPUT DATA (ArrayList<ArrayList>)-----");
+        //arrayListToString(inputData);
+        //System.out.println("\n ------ TARGET DATA (ArrayList<ArrayList>)-----");
+        //arrayListToString(targetData);
     }
 
-    private void arrayToString(ArrayList<ArrayList<Double>> array){
+    public double[][] getInputPatterns() {
+        double[][] inPatterns;
+        int i = 0, j = 0;
+
+        inPatterns = new double[this.getSizeOfInputData()][this.getNumberOfInputs()];
+
+        for(ArrayList<Double> arr : this.inputData){
+           for(double d : arr){
+               inPatterns[i][j] = d;
+               j++;
+           }
+           i++;
+           j=0;
+        }
+
+        //System.out.println("\n ------ INPUT DATA (double[][])-----");
+        //arrayToString(inPatterns);
+        return inPatterns;
+    }
+
+    public double[][] getOuputPatterns() {
+        double[][] outPatterns;
+        int i = 0, j = 0;
+
+        outPatterns = new double[this.getSizeOfOutputData()][this.getNumberOfTargets()];
+
+        for(ArrayList<Double> arr : this.targetData){
+            for(double d : arr){
+                outPatterns[i][j] = d;
+                j++;
+            }
+            i++;
+            j=0;
+        }
+
+        //System.out.println("\n ------ INPUT DATA (double[][])-----");
+        //arrayToString(inPatterns);
+        return outPatterns;
+    }
+
+    public int getNumberOfInputs(){
+        return this.inputData.get(0).size();
+    }
+
+    public int getNumberOfTargets(){
+        return this.targetData.get(0).size();
+    }
+
+    public int getSizeOfInputData(){
+        return this.inputData.size();
+    }
+
+    public int getSizeOfOutputData(){
+        return this.inputData.size();
+    }
+
+    private void arrayListToString(ArrayList<ArrayList<Double>> array){
         for(ArrayList<Double> a : array) {
             System.out.print("{ " );
             for (Double d : a) {
@@ -101,4 +140,13 @@ public class XMLData {
         }
     }
 
+    private void arrayToString(double[][] array){
+        for(double[] a : array) {
+            System.out.print("{ " );
+            for (Double d : a) {
+                System.out.print(d + ", ");
+            }
+            System.out.println("}");
+        }
+    }
 }
