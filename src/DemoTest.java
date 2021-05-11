@@ -42,6 +42,7 @@ public class DemoTest {
 		/**big Dataset loaded**/
 		//xmlData.loadXml(new File("Dataset/dataset_big"));
 
+
 		numberOfInputNeurons = xmlData.getNumberOfInputs();
 		numberOfOutputNeurons = xmlData.getNumberOfTargets();
 
@@ -84,15 +85,22 @@ public class DemoTest {
 		for (int i = 0; i < patterns.size(); i++){
 			error = net.getTrainer().test(patterns.getInputs().get(i), patterns.getTargets().get(i));
 			System.out.println("Error " + i + " = " + error);
-
-			//System.out.println("Anzahl-Outputneuron: " + net.getOutputNeuronCount());
-
-			//if(error > indexOfMaxError)
-			//	indexOfMaxError = i;
 		}
-			//if(indexOfMaxError != -1){
-				//patterns.getTargets().get(indexOfMaxError)
-			//}
+
+		System.out.println("\n\n---- Coordinates Input-Neurons--------");
+		for(int i=0; i < net.getInputNeuronCount(); i++){
+			System.out.println("Input-Neuron " + (i+1) + "x= " + net.getInputNeuron(i).getPosition().getXPos()
+					+ "  y= " + net.getInputNeuron(i).getPosition().getYPos()
+					+ "  z= " + net.getInputNeuron(i).getPosition().getZPos());
+		}
+
+		System.out.println("\n\n---- Coordinates Ouput-Neurons--------");
+		for(int i=0; i < net.getOutputNeuronCount(); i++){
+			System.out.println("Output-Neuron " + (i+1) + "x= " + net.getOutputNeuron(i).getPosition().getXPos()
+					+ "  y= " + net.getOutputNeuron(i).getPosition().getYPos()
+					+ "  z= " + net.getOutputNeuron(i).getPosition().getZPos());
+		}
+
 
 		System.out.println("Saving network");
 
