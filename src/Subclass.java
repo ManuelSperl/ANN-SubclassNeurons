@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Subclass {
     private ArrayList<Double> subclassError;
-    private ArrayList<Integer> inde
+    private ArrayList<Integer> indexOfSubclass;
 
     public Subclass() {
         this.subclassError = new ArrayList<>();

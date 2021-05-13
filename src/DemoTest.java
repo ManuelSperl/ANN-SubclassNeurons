@@ -8,9 +8,14 @@
  */
 
 import boone.*;
+import boone.io.BooneFilter;
+import boone.io.IOFilter;
+import boone.io.Storable;
 import boone.training.BackpropTrainer;
 import boone.training.RpropTrainer;
 import boone.util.Conversion;
+import org.w3c.dom.Document;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -30,38 +35,39 @@ public class DemoTest {
 	 */
 	public static void main(String[] args) throws Exception {
 
-		XMLData xmlData = new XMLData();
+		//XMLData xmlData = new XMLData();
 		int numberOfInputNeurons = 0;
 		int numberOfOutputNeurons = 0;
+		int numberOfHiddenNeurons = 17; // 17 should be the best amount of neurons for the specific data
 
 		System.out.println("*** Creating feed forward network...");
 
 		/**small Dataset loaded**/
-		xmlData.loadXml(new File("Dataset/dataset"));
-
+		//xmlData.loadXml(new File("Dataset/dataset"));
 		/**big Dataset loaded**/
 		//xmlData.loadXml(new File("Dataset/dataset_big"));
-
-
-		numberOfInputNeurons = xmlData.getNumberOfInputs();
-		numberOfOutputNeurons = xmlData.getNumberOfTargets();
+		//numberOfInputNeurons = xmlData.getNumberOfInputs();
+		//numberOfOutputNeurons = xmlData.getNumberOfTargets();
 
 		//von XML lesen
+		PatternSet.load(new File("Dataset/dataset"), new BooneFilter());
 
 		NeuralNet net = NetFactory.createFeedForward(
-				new int[]{numberOfInputNeurons, 2, numberOfOutputNeurons},	//#input neurons, #hidden neurons, #output neuron
+				new int[]{numberOfInputNeurons, numberOfHiddenNeurons, numberOfOutputNeurons},	//#input neurons, #hidden neurons, #output neuron
 				false,								//net fully connected?
 				new boone.map.Function.Sigmoid(),		//activation-function
 				new RpropTrainer(),						//Trainer
 				null, null);				//
 
-		xmlData.getInputPatterns();
+		//xmlData.getInputPatterns();
 
-		PatternSet patterns = new PatternSet();
+		/*
 		for (int i = 0; i < xmlData.getSizeOfInputData(); i++) {
 			patterns.getInputs().add(Conversion.asList(xmlData.getInputPatterns()[i]));
 			patterns.getTargets().add(Conversion.asList(xmlData.getOuputPatterns()[i]));
 		}
+		*/
+
 
 		int epochs = 10; //steps = 1
 		Trainer trainer = net.getTrainer();
