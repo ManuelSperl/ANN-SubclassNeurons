@@ -1,25 +1,37 @@
 import java.util.ArrayList;
 
 public class Subclass {
-    private ArrayList<Double> subclassError;
-    private ArrayList<Integer> indexOfSubclass;
+    private final int index;
+    private int error;
+    private int numberOfUses;
+    public ArrayList<Integer> indexOfWrongPatterns;
 
-    public Subclass() {
-        this.subclassError = new ArrayList<>();
+    public Subclass(int index) {
+        this.index = index;
+        this.error = 0;
+        this.numberOfUses = 0;
+        this.indexOfWrongPatterns = new ArrayList<>();
     }
 
-    public void add(double error){
-        this.subclassError.add(error);
+    public int getIndex() {
+        return this.index;
     }
 
-    public double getSubclassError(){
-        double sum = 0;
-
-        for(double d : this.subclassError)
-            sum += d;
-
-        return sum / this.subclassError.size();
+    public void increaseError() {
+        this.error++;
     }
 
+    public void increaseNumberOfUses() {
+        this.numberOfUses++;
+    }
 
+    public double errorRate(){
+        return this.numberOfUses != 0 ?
+                (double) this.error / this.numberOfUses : 0;
+    }
+
+    public void resetError(){
+        this.error=0;
+        this.numberOfUses=0;
+    }
 }

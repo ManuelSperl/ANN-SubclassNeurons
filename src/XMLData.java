@@ -1,4 +1,3 @@
-import boone.PatternSet;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -8,6 +7,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Class to read an XML-File and
@@ -16,8 +16,8 @@ import java.util.ArrayList;
  */
 public class XMLData {
 
-    private ArrayList<ArrayList<Double>> inputData;
-    private ArrayList<ArrayList<Double>> targetData;
+    public ArrayList<ArrayList<Double>> inputData;
+    public ArrayList<ArrayList<Double>> targetData;
 
     public void loadXml(File input) throws Exception {
 
@@ -75,11 +75,15 @@ public class XMLData {
         //arrayListToString(targetData);
     }
 
+    public List<ArrayList<Double>> getTargets(){
+        return this.targetData;
+    }
+
     public double[][] getInputPatterns() {
         double[][] inPatterns;
         int i = 0, j = 0;
 
-        inPatterns = new double[this.getSizeOfInputData()][this.getNumberOfInputs()];
+        inPatterns = new double[this.getSizeOfPatternSet()][this.getNumberOfInputs()];
 
         for(ArrayList<Double> arr : this.inputData){
            for(double d : arr){
@@ -95,11 +99,11 @@ public class XMLData {
         return inPatterns;
     }
 
-    public double[][] getOuputPatterns() {
+    public double[][] getOutputPatterns() {
         double[][] outPatterns;
         int i = 0, j = 0;
 
-        outPatterns = new double[this.getSizeOfOutputData()][this.getNumberOfTargets()];
+        outPatterns = new double[this.getSizeOfPatternSet()][this.getNumberOfTargets()];
 
         for(ArrayList<Double> arr : this.targetData){
             for(double d : arr){
@@ -110,9 +114,25 @@ public class XMLData {
             j=0;
         }
 
-        //System.out.println("\n ------ INPUT DATA (double[][])-----");
-        //arrayToString(inPatterns);
+        //System.out.println("\n ------ OUTPUT DATA (double[][])-----");
+        //arrayToString(outPatterns);
         return outPatterns;
+    }
+
+    public int getPosOfWinningNeuron(double[] outputPattern){
+        for(int i=0; i< outputPattern.length; i++) {
+            if (outputPattern[i] == 1)
+                return i;
+        }
+        return -1;
+    }
+
+    public int getPosOfWinningNeuron(List<Double> outputPattern){
+        for(int i=0; i< outputPattern.size(); i++) {
+            if (outputPattern.get(i) == 1)
+                return i;
+        }
+        return -1;
     }
 
     public int getNumberOfInputs(){
@@ -123,11 +143,7 @@ public class XMLData {
         return this.targetData.get(0).size();
     }
 
-    public int getSizeOfInputData(){
-        return this.inputData.size();
-    }
-
-    public int getSizeOfOutputData(){
+    public int getSizeOfPatternSet(){
         return this.inputData.size();
     }
 
