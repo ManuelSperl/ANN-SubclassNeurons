@@ -97,8 +97,10 @@ public class DemoTest {
 				}
 			}
 
-			for(Subclass s : subclassList)
+			for(Subclass s : subclassList) {
 				s.resetError();
+				s.indexOfWrongPatterns.clear();
+			}
 
 			int epochs = 30; //steps = 1
 			Trainer trainer = net.getTrainer();
@@ -174,9 +176,13 @@ public class DemoTest {
 					// set value in target list for new neuron
 					// if in this pattern, the value of the neuron is 1
 					if(wrongPatternIndex < subclassHighestError.indexOfWrongPatterns.size() && subclassHighestError.indexOfWrongPatterns.get(wrongPatternIndex) == i){
+						//System.out.println("--- add neuron to subclass with highest error: Subclass " + subclassHighestError.getIndex() + " ---");
+						//xmlData.printPattern(patterns.getTargets().get(i));
 						patterns.getTargets().get(i).add(1.0);
 						patterns.getTargets().get(i).set(patternInfoList.get(i).getIndexWithValueOne(), 0.0);
 						patternInfoList.get(i).setIndexWithValueOne(patterns.getTargets().get(i).size() - 1);
+						//xmlData.printPattern(patterns.getTargets().get(i));
+						//System.out.println("---- Pattern: " + i + " changed ---------------------------------------------------------------------");
 
 						wrongPatternIndex++;
 					}
