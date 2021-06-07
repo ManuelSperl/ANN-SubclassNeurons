@@ -152,7 +152,7 @@ public class DemoTest {
 						//System.out.println("-----------------------------------------");
 					}
 				}
-				// neuron from wrong subclass won
+				// wrong subclass won
 				else {
 					expectedSubclass.increaseError();
 					//System.out.println("WRONG SUBCLASS");
@@ -173,10 +173,12 @@ public class DemoTest {
 				for(int i=0; i < patterns.size(); i++){
 					// set value in target list for new neuron
 					// if in this pattern, the value of the neuron is 1
-					if(subclassHighestError.indexOfWrongPatterns.get(wrongPatternIndex) == i){
+					if(wrongPatternIndex < subclassHighestError.indexOfWrongPatterns.size() && subclassHighestError.indexOfWrongPatterns.get(wrongPatternIndex) == i){
 						patterns.getTargets().get(i).add(1.0);
 						patterns.getTargets().get(i).set(patternInfoList.get(i).getIndexWithValueOne(), 0.0);
 						patternInfoList.get(i).setIndexWithValueOne(patterns.getTargets().get(i).size() - 1);
+
+						wrongPatternIndex++;
 					}
 					// in this pattern, the value of the neuron is 0
 					else
