@@ -52,6 +52,8 @@ public class DemoTest {
 			if(rounds > 0)
 				lastNetAccuracy = 1 - subclassHighestError.errorRate();
 
+			subclassHighestError = null;
+
 			net = NetFactory.createFeedForward(
 					new int[]{numberOfInputNeurons, numberOfHiddenNeurons, numberOfOutputNeurons},    //#input neurons, #hidden neurons, #output neuron
 					false,                                //net fully connected?
@@ -139,9 +141,15 @@ public class DemoTest {
 					// check if the right neuron of the subclass won
 					int expectedNeuronIndex = actualPattern.getIndexWithValueOne();
 					if(neuronIndex != expectedNeuronIndex) {
+						//System.out.println("--- Correct Subclass but wrong neuron ---");
+						//xmlData.printPattern(patterns.getTargets().get(i));
+						//System.out.println("expected Index: " + expectedNeuronIndex + " --> neuron index: " + neuronIndex);
 						patterns.getTargets().get(i).set(expectedNeuronIndex, 0.0);
 						patterns.getTargets().get(i).set(neuronIndex, 1.0);
 						actualPattern.setIndexWithValueOne(neuronIndex);
+
+						//xmlData.printPattern(patterns.getTargets().get(i));
+						//System.out.println("-----------------------------------------");
 					}
 				}
 				// neuron from wrong subclass won
@@ -168,7 +176,7 @@ public class DemoTest {
 					if(subclassHighestError.indexOfWrongPatterns.get(wrongPatternIndex) == i){
 						patterns.getTargets().get(i).add(1.0);
 						patterns.getTargets().get(i).set(patternInfoList.get(i).getIndexWithValueOne(), 0.0);
-						patternInfoList.get(i).setIndexWithValueOne(xmlData.getNumberOfTargets()); // number of targets is then +1, thus now the index is the length
+						patternInfoList.get(i).setIndexWithValueOne(patterns.getTargets().get(i).size() - 1);
 					}
 					// in this pattern, the value of the neuron is 0
 					else

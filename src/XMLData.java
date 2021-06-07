@@ -166,4 +166,12 @@ public class XMLData {
             System.out.println("}");
         }
     }
+
+    public void printPattern(List<Double> pattern){
+        System.out.print("{");
+        for(double d : pattern)
+            System.out.print(d + ", ");
+
+        System.out.println("}");
+    }
 }
