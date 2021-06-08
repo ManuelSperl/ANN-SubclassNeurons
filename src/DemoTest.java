@@ -102,19 +102,19 @@ public class DemoTest {
 				s.indexOfWrongPatterns.clear();
 			}
 
-			int epochs = 30; //steps = 1
+			int epochs = 1000; //steps = 1
 			Trainer trainer = net.getTrainer();
 			trainer.setTrainingData(patterns);
 			trainer.setTestData(patterns);
 			trainer.setEpochs(epochs);
 			trainer.setStepMode(true);
-			//System.out.println("*** Training " + epochs + " epochs...");
-			((BackpropTrainer) trainer).setMomentum(0.8);
+			System.out.println("*** Training " + epochs + " epochs...");
+			//((BackpropTrainer) trainer).setMomentum(0.8);
 
 			trainer.train();
 			//System.out.println(epochs + ". - " + net.getTrainer().test());
 
-			//System.out.println("\n*** Testing the network...");
+			System.out.println("\n*** Testing the network...");
 			//System.out.println();
 
 			for (int i = 0; i < patterns.size(); i++) {
