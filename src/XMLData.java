@@ -10,9 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Class to read an XML-File and
- * build a data structure to manage a list of different items (Book, Cd or List)
- * based on the Composite Pattern
+ * Class to read the pattern from a XML-File and stores it in local lists
  */
 public class XMLData {
 
@@ -24,7 +22,6 @@ public class XMLData {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         DocumentBuilder db = dbf.newDocumentBuilder();
         Document doc = db.parse(input);
-        //Element root = doc.getDocumentElement();
         inputData = new ArrayList<>();
         targetData = new ArrayList<>();
 

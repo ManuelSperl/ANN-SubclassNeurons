@@ -6,8 +6,8 @@ import java.util.List;
 
 public class PatternInfo {
     private int indexWithValueOne; // index of the pattern value, where the value is 1
-    public List<Subclass> subclassPerTarget; // the right subclass get assigned to every target (represents a neuron)
-    public HashMap<Neuron,Integer> outputNeuronHashMap; // every neuron get hashed to a target-value
+    public List<Subclass> subclassPerTarget; // the right subclass gets assigned to every target (represents a neuron)
+    public HashMap<Neuron,Integer> outputNeuronHashMap; // every neuron gets hashed to a target-value
 
     public PatternInfo() {
         this.indexWithValueOne = -1;
