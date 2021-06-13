@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boone>
+  <set class="PatternSet">
+    <pattern>
+      <input>0.08509686220518732, 0.18845911750299607</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.01722606018405175, 0.45906308377485183</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.009655166568719798, 0.5863009059876363</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.019447392764892914, 0.16771282725722828</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.06455365214121139, 0.8702027040117016</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.047858595370392304, 0.31256618987070867</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.05785451570775814, 0.8691964643213258</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.019061924489491167, 0.4548492278727536</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.003325606859325736, 0.5834083532902683</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.0630940630775537, 0.5673274869694994</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.08717954025533103, 0.27711078307099135</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.09979970024041818, 0.8626216287848489</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.05548632103151929, 0.11345017379622267</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.02034055635705544, 0.7798122414485132</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.057809312577329325, 0.47677305961702854</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.05240733644825531, 0.6537726789434659</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.044430965262232114, 0.44175467874503493</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.013581070449116585, 0.3174492118913291</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.029475999491623973, 0.38681551921537194</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.0862941011552463, 0.23808983360124625</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>3.061899481847652E-4, 0.31259227383108656</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.07996997406492481, 0.36420382883622426</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.07475232140792219, 0.8145111479960694</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.08117538202977408, 0.4608154312372982</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.08206526819048286, 0.4717926045850842</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.03099612602502262, 0.5363566163739109</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.07090954573513357, 0.8534978855524962</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.010353127595046098, 0.21532459626574507</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.028289125279540507, 0.8055088299109151</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.058603269593796595, 0.7866116516815199</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.02698668088950651, 0.3706141007752807</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.09852385620027768, 0.758195449201469</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.00591384155113498, 0.8071555694600939</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.09165833722258483, 0.27465992116463256</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.027711464593633807, 0.7099704279047503</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.0020048827694880036, 0.5047971579774485</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9489947082196443, 0.4006457284774828</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9968417399565723, 0.2823231143523406</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9990861953960511, 0.7423828281792219</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9757305981853757, 0.28352029420472036</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9792784898530659, 0.7480512636810471</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9064340486661786, 0.8514021241311527</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9599277649905685, 0.7882921269064149</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9953189999928513, 0.8267750817135455</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9993965478656441, 0.8698126348535676</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9993339513912542, 0.22235584810690892</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9613658963913855, 0.7422947780864865</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9566817073258432, 0.8768818521551954</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.963665288151138, 0.505622095116038</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9886689440068239, 0.7519350067153531</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.982249968099072, 0.5274099693232837</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9502197536627067, 0.4849794916982684</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9158891033318797, 0.6441059281489989</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9244114755695266, 0.3878960543101193</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9459366882095361, 0.8072080754522838</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9711371533571959, 0.6810760684291979</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9012407740986869, 0.5494303859804215</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9516201236378646, 0.17892013130689613</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9608051188789625, 0.48392550805671153</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9590022554184958, 0.4933673231629646</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.996251004979281, 0.7129565250133559</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9905985047020354, 0.897862115731129</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9724355569520928, 0.5106906653166119</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9996565408643248, 0.49494761262479636</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9877664511124852, 0.5580688548444998</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9635812646590882, 0.45645478781313675</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9458115682852701, 0.5459865598437076</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9015801718887424, 0.6560384929903156</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9067356369364331, 0.7263027531678581</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9675565624419628, 0.7895929812036017</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9709046234248722, 0.7784743699910566</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9338237363143346, 0.4798597413611735</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7728958533774093, 0.0023178758868792615</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.287322954990496, 0.032165611987139756</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6503037247484511, 0.03999934771087598</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8002681760171025, 0.012384503684534044</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8998881376257636, 0.020275681578338745</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8526616872369347, 0.03802988185624942</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8070339855939681, 0.019872063543351137</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4192888644051691, 0.0012464203331337687</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5548958644666887, 0.06999872333213401</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.46337135402333696, 0.06134733911977911</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.40229204334985214, 0.06105432615391487</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.16266401414204756, 0.05710756035942255</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.52368435590125, 0.004636110813592365</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7158138437250025, 0.0688334160841711</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4852914000526236, 0.08254736486481443</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7315443803691427, 0.009167025133131324</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.14466467162754348, 0.08680916152873373</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6290103499712963, 0.0599624155213091</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.39933754724611004, 0.08212475106109979</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.12844832380384066, 0.014074290957106073</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6734389866975126, 0.0028113433884078276</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1870310658710193, 0.025529310748056113</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.719444714690982, 0.02990549843275291</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6356133707081065, 0.019303647485699127</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.42551988515522365, 0.08096467844323701</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.497839921622261, 0.06280945136466529</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8571888876506697, 0.08502895424805723</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3238653673944614, 0.055196829799518704</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3253484395042744, 0.008273285857288771</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.44671946557735065, 0.04770678389525005</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.46092227999606206, 0.04207213532548037</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2701303010277397, 0.06856449156394837</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.28973618725081307, 0.06451466954524185</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.32240070571145063, 0.08928123568904783</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3394739407516809, 0.03885011804038873</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.461713539596184, 0.035737144719635426</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6738557730419452, 0.9820906422395453</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6940231844188751, 0.9829541323996268</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.43746188994199053, 0.9177598989838621</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7654717952683954, 0.9820438189051365</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8079056835506248, 0.94849044257183</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.21704994265313912, 0.9235755718402243</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5903414196372806, 0.9263302091859493</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3400025938120176, 0.9530043799855404</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.45257351580125826, 0.9855525836448376</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.246262783425503, 0.9672400740698315</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.38731483088802987, 0.9590892968052049</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2689763218325572, 0.946094828781881</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6014233193359473, 0.9828164729472026</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3339624131919805, 0.9907351256328718</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.27022742722159, 0.9921829645189201</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7937359027291211, 0.9212347107997053</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2583315780853481, 0.9851036877565349</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8914987698156774, 0.9906962225516436</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5965749340621964, 0.9413492966607614</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.723288964509217, 0.9756552148122649</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.41809717564874693, 0.9518471107204831</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6922564553809063, 0.9016014486303026</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.39474711110396843, 0.9213668002552062</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3998176636082217, 0.9584483219177771</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.27835008270080275, 0.9649979367695821</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2942200997483201, 0.9536525501723545</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.13963279256301364, 0.9226351149042091</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.19783106957891566, 0.9404321292988331</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5108838896923656, 0.9663699310359554</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.26024496055770047, 0.9451518617331561</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2767112355871236, 0.9732476866601277</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3350851019432187, 0.9014417142950598</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6205371917837268, 0.9802803394311622</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8541575438443958, 0.9789844371563922</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.22275476737013422, 0.9299157291208359</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7733950730831363, 0.9721549040276065</input>
+      <target>0.0, 1.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8197488478498132, 0.18259792782809703</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.49081128275513897, 0.5470035196007079</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.37126779602383286, 0.5948351028947179</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1874657628979419, 0.8050965659546101</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6469119714840672, 0.3133875410418855</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.818222314829215, 0.17938535361600338</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.23078713403123816, 0.7199429068445591</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3798641327487874, 0.5943270152298172</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.35665176524749487, 0.621016751345617</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.10991030592374128, 0.8941716926567528</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4241686337690237, 0.611640728430729</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3202596461410162, 0.6579321622488357</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.11015226470587908, 0.8860523563282541</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8455694268141375, 0.11613837532122562</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.47698516140894864, 0.5193822735378733</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1870569758398249, 0.8593402324327751</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.19365683528073838, 0.8442373603141429</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.758194317299727, 0.25166070917766004</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5231609623302483, 0.46785542603360986</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7895465357462425, 0.25791712535854416</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8932675063384229, 0.11915920117110113</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8257862094106524, 0.15991770831957675</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8559672357365912, 0.1805654404451872</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7486974562965324, 0.2765055522136759</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8541681941591835, 0.14680633491374007</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6857640743483702, 0.3127621710282076</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6525041206211658, 0.3622986546314152</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.414718137728298, 0.5464971410528063</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.15239662998970482, 0.8197477546111205</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1502058276652261, 0.8147409068546927</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5997939524967574, 0.3557012607747445</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8995094231693724, 0.089421839098765</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1072902534371954, 0.8536695428981562</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.10004473745720421, 0.929749369908109</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7506109751529819, 0.2622073120377416</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.40213535303930736, 0.569038994602884</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8627308456852733, 0.8459969348527513</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.23634570648701925, 0.26419460416276763</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.33717220592499775, 0.30744936044554155</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6054364175497848, 0.5770853535620116</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3653130256990579, 0.3646209297623718</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1667868293116183, 0.19557399500583716</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8708147281428315, 0.9129052136795727</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.12191048933095275, 0.1425308769482146</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.16756154483224667, 0.17835790189231282</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.10547096089636972, 0.12390807916105913</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.45578429402003307, 0.47878453796651266</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.16698632316768763, 0.1345204726171114</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4843224851221962, 0.4708404905434469</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8641922626760979, 0.8217157816764729</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.24526031495547215, 0.2140302173435788</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6378145128100222, 0.5999784754732445</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7304531357532422, 0.6888402866410507</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6132830049475119, 0.592422824615607</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.16774204502095227, 0.19071310215367</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1757012031137946, 0.18616545988774796</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3679359211951808, 0.3841664010395037</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4901652994904241, 0.5277279351077667</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.45192120746192244, 0.4420858782448255</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3903092388594972, 0.3519049150555924</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6905409111181037, 0.7140659899770062</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.13373293997441174, 0.13294396307096798</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8781658997862875, 0.864646903414341</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.22375195909841558, 0.27041770028203127</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.37416233923468745, 0.39739277845181836</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4226884710831559, 0.37382959966739693</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2847408424941972, 0.333979698152727</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.23270456275307874, 0.1897797382412107</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.22095385786645905, 0.24880892677982291</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4959600261434062, 0.5234269125767501</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6568889917982143, 0.6691337155303497</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7666580457048553, 0.742018649001487</input>
+      <target>0.0, 0.0, 1.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.07817346089552928, 0.9371016228712187</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.02916545404448321, 0.9709026464170242</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.02836241861607829, 0.9715874646167216</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.06505508907271938, 0.9535758082768786</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.023795318338974237, 0.9921915972791826</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.03429439944867442, 0.9128186699312566</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.014160786294623785, 0.9036554503878431</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.05489153218985045, 0.947959109993094</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.0526856709388068, 0.9464039564422626</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.01922973819488535, 0.904350137718582</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.0909006333447846, 0.9774859295018663</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.006686932353413122, 0.9734661173299427</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.04095649700716034, 0.9287535918581271</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.05396868524572928, 0.9867527051584577</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.08427858522448449, 0.9743094114384464</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.028006300544914788, 0.973491133191418</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.08200643205648192, 0.9399320841920933</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.024494331343828526, 0.9895585446262873</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.04745139824750301, 0.9347520094972405</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.07148954177836443, 0.9574621897420725</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.0737149279959453, 0.9798802487065025</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.05196594687809737, 0.9883963790881957</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.07064526125555419, 0.9500035663838895</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.0718182574232249, 0.9843172073883077</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.05447063908971039, 0.9321416709741004</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.09052868361210083, 0.9421511132732773</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.05073216953558253, 0.9408214662966023</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>5.597367164043133E-4, 0.9032494611044756</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.016549661289381346, 0.9108566337836523</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.08850827900076104, 0.9090724457295511</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.061788938921306526, 0.9177295096483924</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.036153784844132265, 0.9388316664432469</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.05035924447496364, 0.951255794050244</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.022756392036069786, 0.9164418253258158</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.09265452971846469, 0.9907712336380674</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.07130798468314753, 0.9826281476988993</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9019373831173402, 0.9995129935021603</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9590877821836117, 0.9334071302902324</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9574987240400575, 0.9721770585303107</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9949329581827832, 0.928404390877221</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9798994594912538, 0.9328165746227814</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9286540475894772, 0.9715944534643968</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9095643498578421, 0.9903046242315058</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9081781863562979, 0.963043391041562</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9968748012300914, 0.9155185759336333</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9144501918897222, 0.9131063621779746</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9198557821915291, 0.9082116783951907</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9554763211082826, 0.9002781615087808</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9371379074212494, 0.9722211892729009</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9772578709640063, 0.9405159963060914</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9143996467285922, 0.9152209439737272</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9856301642993931, 0.9193497839172378</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9795844829424114, 0.9336598345290938</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9885497144179138, 0.9184664064421646</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9511526105340832, 0.9348362641201383</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9057748176548885, 0.9457003644054076</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.944466723577207, 0.9862422575809693</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9521620509239016, 0.9514844801021525</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9941261843062434, 0.9673694739633807</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9819536021867832, 0.9858102771584379</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9346537497590134, 0.9311029927472984</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9844576203102546, 0.9176188511873804</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9584038909205613, 0.9606373157874603</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9464261661452555, 0.9032890791876776</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9179015589777898, 0.9335325992228745</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.943212665809135, 0.9525111488175613</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9600350993303789, 0.977087816590274</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9894431352360585, 0.9983294500333526</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9716168769431135, 0.9186410031185921</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9704627428778634, 0.9335099844864598</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9797899804719364, 0.9007154721197347</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9882216942309281, 0.9276335484510525</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.013400715756173964, 0.05588562530143734</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.010458335918448981, 0.011562981994402012</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.07524010160193739, 0.09787536822385143</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.09914352468558299, 0.023078837130994824</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.09875402002898942, 0.04407514023388999</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.028452076843257137, 0.07138546975428361</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.0532123551403767, 0.0448995588556137</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.07209988080264744, 0.026870987340925325</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.08729641785849368, 0.09214740893367929</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.03852701578342225, 0.019236191876341614</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.04828811952217195, 0.026953256749659028</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.08065210746401823, 0.0015894088354392322</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.013548701178466849, 0.09932069612760121</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.07077417533433075, 0.032616217489618814</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.09158983237029343, 0.09134972034100515</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.02023927901851832, 0.05695407682604321</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.03920009966498546, 0.028087010180861585</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.014211936604027765, 0.03978074941520892</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.058375060436596675, 0.06486939333530854</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>7.389495438375415E-4, 0.09062938637235962</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.0822091817394688, 0.058097103985571066</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.02026587830857253, 0.09357191915920199</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.03244315921550778, 0.09756493603435641</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.08686414052680456, 0.04616646136003073</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.03302022298542147, 0.0027956898023717147</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.0356492910754288, 0.09794322972975208</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.09379026370869814, 0.06326181947410559</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.032218762668631405, 0.07070739892770081</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.03641069168802385, 0.0329475409077132</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.09940992772273634, 0.03756629500952988</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.02052816859402398, 0.0733950712224903</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.054277106529989586, 0.03534212433763625</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.04248544644395541, 0.0761950802561359</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.06390864602227046, 0.08591045028154723</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.021082754772198842, 0.08582286189452948</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.022553043063769276, 0.006008443740221603</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9446667037043391, 0.08678809250223396</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9755044453671744, 0.0921859057364163</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9623124101651263, 0.015257504095620267</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.942775466267348, 0.07782594225974329</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.967138455585524, 0.004626170767526383</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9323506924640405, 0.07254104810641075</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9128116890011806, 0.07695451336247122</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.939520902035129, 0.010754345399079247</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9836758796617184, 0.047754551633244824</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9276548520249221, 0.05590451382561773</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9698265677940121, 0.02030034677098711</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9721541556491877, 0.029466969584022874</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9069410431941693, 0.007453923667233787</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9755826684164213, 0.05986266791881231</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9155528242614894, 0.03393946058492064</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9882202978420416, 0.07532987164922056</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9790497934923361, 0.04006486222091402</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9713184233583074, 0.09696309786224021</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9761400053646756, 0.02908127504745437</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9652365188264859, 0.02337735959429609</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9318690489295332, 0.07468751231234975</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9714168653601065, 0.036834773755275586</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9714876353471995, 0.03262772717760555</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.925806631114934, 0.0021744423746449804</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9535580001700418, 0.08089714476422222</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.931863879107122, 0.07451547287026924</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9226524931593396, 0.04676198104716563</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9336864928352824, 0.07945689074122637</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9578375759963588, 0.06561618878629864</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.944080254679355, 0.08037710278321811</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9008513618979945, 0.056638951813150984</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9985347402977707, 0.00143948614877778</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9274725515945782, 0.09328339820869588</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9841029712485643, 0.03203955766041661</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9770436048374747, 0.09281826439048307</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.9920831854122246, 0.09868313347207047</input>
+      <target>1.0, 0.0, 0.0, 0.0</target>
+    </pattern>
+    <pattern>
+      <input>0.17111272235842045, 0.4168556353608669</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.21491153377185362, 0.3961478671971993</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.40994278772003556, 0.18933554366789207</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2535777485544455, 0.5139402801738258</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.211067234098892, 0.5468326748562585</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2352957136470702, 0.20412352547986456</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2505201441852968, 0.2623533896032443</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.30985019519004364, 0.3890030785001539</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3266065016872166, 0.21957047286916698</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3447426006565489, 0.24615083257916737</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.24777464380131775, 0.3595656378349621</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3438283727899861, 0.31672127308422426</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2538382483769196, 0.31429506103717475</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.20312996083049417, 0.3862117549554468</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.263748994345651, 0.2119701402728349</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3362888310892514, 0.34355349571238336</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.21859931510248254, 0.2963621563512075</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.42275512325509956, 0.15978794294206694</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.25682576849363026, 0.31693306193155624</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4002605744872574, 0.1730539198756387</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.30968710017246653, 0.40212353234125386</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.429380262845648, 0.1557409961072062</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.30900701048266793, 0.2885300786892395</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3120608814203837, 0.1874764509540919</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2659002093396841, 0.31100310829333455</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.21787797902629735, 0.4448112473279757</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.27874133260760403, 0.41257793753168837</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.26148217281791386, 0.412643791240053</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1009898594822658, 0.7868655258757027</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3422035577308169, 0.3109395718803929</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2046500429369336, 0.29592342690770285</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.17210643322884284, 0.5059756640387013</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.42312362953264593, 0.1589653100445487</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1719206790890091, 0.15777602856877496</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.35800386162123654, 0.2209751478726444</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.30522375827970427, 0.3728091738888135</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6020369300746768, 0.17399111577088328</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8599930540803741, 0.6997603854737114</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.745698127092625, 0.466281929164736</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.66666844090353, 0.21933658751842922</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7030431841670574, 0.33251440807455485</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7408340513206263, 0.2450616382647803</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6931958846677875, 0.3555261542488879</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5783089362646516, 0.168440014010092</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8550493361709668, 0.4288114106766443</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8636276817917448, 0.4153159232375999</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6826303928103943, 0.2971476450092365</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6510823709553061, 0.20939774810845024</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.74628373537698, 0.38725271024989916</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8121235992159811, 0.30789202367858337</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6975489205662309, 0.23056955834782253</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6299186322251834, 0.167854815593085</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.729500051944246, 0.1596232906797641</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7906049464588938, 0.44889830635770034</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6754017598416261, 0.3010557521483739</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6517051964880772, 0.32022069565731326</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6168067579704122, 0.17697718373220198</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8812847781875262, 0.18197054042051192</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6276790121227201, 0.17523142004826056</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6367360327186139, 0.27398938639880627</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8437733320540852, 0.49063794638332425</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8195632601002251, 0.17677943116839295</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5763358407468193, 0.15949010185133963</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8522204524097734, 0.3561280568285098</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8762116281344918, 0.41584344886742164</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5849190052979489, 0.15470833777538817</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7486545723459179, 0.32661310643516017</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.604375258670303, 0.2160068928042826</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8705308924200987, 0.543817476172411</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7027079907330749, 0.283486603978914</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7401921773746167, 0.3049150734196881</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8431238113504653, 0.5026078245497636</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2363127048537467, 0.36393526111980656</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.202635069536445, 0.260356489805475</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.8335185354746825, 0.10703851862047511</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5179028090829046, 0.12907474986590317</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4530384086539466, 0.2447312730738548</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.27447183303841594, 0.33676938094131853</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5159721496871602, 0.19650541962753354</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3694220414322269, 0.2852425493123367</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.47704687750140173, 0.2648132392152436</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.48974679299769897, 0.25707158829359633</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.22865622027635296, 0.31706309214644557</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4817847077782743, 0.16222289913290713</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5939387999979725, 0.1389151220290167</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.17006002897050418, 0.131686233679895</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.15556348801779693, 0.3511796346208388</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3303863384613038, 0.3153196729897324</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.17253317548098826, 0.18934912006185994</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.19121788691086922, 0.26298026677113523</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3253010065089229, 0.1343360234856938</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3836036319770271, 0.22771267138198875</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.31983510949095195, 0.12534189076713761</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2446232764971302, 0.3672777566867106</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.26393274809806516, 0.2509494870551358</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.15246133864037192, 0.25562555592462044</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2321667890042368, 0.3425080139521005</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5709533517783683, 0.21905159639031138</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1970897876882615, 0.35467254329985676</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.16195102674172848, 0.4227229262469011</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.23723365761074208, 0.39156241854559726</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.5589906744162931, 0.18202004418107445</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3531687723176317, 0.2634191617671755</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4585220242587088, 0.1797130111352998</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.40935341857844854, 0.23787322617789305</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.27486997254380974, 0.17437483759918682</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.3836999152804215, 0.25196967831711437</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2895381777098849, 0.3576327418174441</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2762306960758232, 0.8840433911023435</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.22749984165602755, 0.6821327869310067</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.31758851014019085, 0.6524939959356816</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.21026585720085983, 0.6242084955554709</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6947853427087232, 0.8544847551716277</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.27671787474048903, 0.6670213768513564</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.27096406445156324, 0.8340713042680905</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.1533354388611332, 0.6521496431201951</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.24495961041643577, 0.7018780923780478</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.7702174522289001, 0.8950974439886161</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2578179746262362, 0.7506925244777599</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2647509001192447, 0.6779868579214687</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2085046750901957, 0.6038502584511902</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.42926755186903076, 0.7024358862005068</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.265417461285209, 0.6626833281783329</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.18810549054928458, 0.8061938766479237</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.4860352094387218, 0.7619491656983896</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.18792073496599365, 0.6745961693045933</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2456945811243196, 0.6819927303493343</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2957833032732574, 0.7175773253920956</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.29510878820048636, 0.643415377858876</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.19072570536089578, 0.6848476495293474</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2083563965459318, 0.8842329504475217</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.24303453665286817, 0.6658904204439255</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.18892364668758924, 0.6309023662623512</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.37735193139646855, 0.7576774597538813</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.6352042860201704, 0.8631796068095026</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.16778507823846964, 0.5914284360544192</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.22612702484065778, 0.7885437623529079</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.2097022988230804, 0.6003544700863814</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.24437290333015396, 0.6548806648460672</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+    <pattern>
+      <input>0.15839093843219657, 0.7431294712330467</input>
+      <target>0.0, 0.0, 0.0, 1.0</target>
+    </pattern>
+  </set>
+</boone>
