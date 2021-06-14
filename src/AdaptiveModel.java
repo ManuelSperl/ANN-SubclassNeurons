@@ -23,13 +23,15 @@ public class AdaptiveModel {
 		final int MIN_ROUNDS = 10;
 		final int ROUNDS_WITHOUT_HIGHEST_ACCURACY = 5;
 
-		int numberOfHiddenNeurons = 0; // with 0 hidden neurons we should get the biggest difference between ANN with subclasses and without subclasses
+		int numberOfHiddenNeurons = 17; // with 0 hidden neurons we should get the biggest difference between ANN with subclasses and without subclasses
+
+		int epochs = 250; //steps = 1
 
 		/**load Trainings-Dataset**/
 		xmlTrainingPatterns.loadXml(new File("Dataset/dataset_test"));
 
 		/**load Test-Dataset**/
-		xmlTrainingPatterns.loadXml(new File("Dataset/dataset_training"));
+		xmlTestPatterns.loadXml(new File("Dataset/dataset_training"));
 		/**-------------------------------------------------------------------------------------**/
 
 		List<Subclass> subclassList = new ArrayList<>(); // stores all subclass objects which are available in this net
@@ -43,6 +45,7 @@ public class AdaptiveModel {
 		int numberOfInputNeurons;
 		int numberOfOutputNeurons;
 
+		double actualHighestAccuracy = 0.0;
 		int roundsSinceHighestAccuracy = 0;
 
 		System.out.println("*** Creating feed forward network...");
@@ -96,6 +99,20 @@ public class AdaptiveModel {
 
 					trainingPatternInfoList.add(patternInfo);
 				}
+
+				for(int i = 0; i < xmlTestPatterns.getSizeOfPatternSet(); i++) {
+					patternInfo = new PatternInfo();
+
+					testBoonePatterns.getInputs().add(Conversion.asList(xmlTestPatterns.getInputPatterns()[i]));
+					testBoonePatterns.getTargets().add(Conversion.asList(xmlTestPatterns.getOutputPatterns()[i]));
+
+					// safe index of the pattern-value, which has the value 1
+					patternInfo.setIndexWithValueOne(
+							xmlTestPatterns.getPosOfWinningNeuron(
+									xmlTestPatterns.getOutputPatterns()[i]));
+
+					testPatternInfoList.add(patternInfo);
+				}
 			} else {
 				// set all neurons new in hashmap
 				for (int i = 0; i < trainingBoonePatterns.size(); i++) {
@@ -111,7 +128,6 @@ public class AdaptiveModel {
 				s.indexOfWrongPatterns.clear();
 			}
 
-			int epochs = 250; //steps = 1
 			Trainer trainer = net.getTrainer();
 			trainer.setTrainingData(trainingBoonePatterns);
 			trainer.setTestData(testBoonePatterns);
@@ -126,6 +142,7 @@ public class AdaptiveModel {
 			//System.out.println("\n*** Testing the network...");
 			//System.out.println();
 
+			/**Testing the network with trainings-data and add subclass-neurons if needed*/
 			for (int i = 0; i < trainingBoonePatterns.size(); i++) {
 				PatternInfo actualPattern = trainingPatternInfoList.get(i);
 
@@ -207,10 +224,15 @@ public class AdaptiveModel {
 				}
 			}
 
+			if((1 - subclassHighestError.errorRate()) > actualHighestAccuracy){
+				actualHighestAccuracy = 1 - subclassHighestError.errorRate();
+				roundsSinceHighestAccuracy = 0;
+			} else
+				roundsSinceHighestAccuracy ++;
+
 			System.out.println("Round " + rounds + ": net accuracy = " + (1-subclassHighestError.errorRate())*100 + "%" + "   Subclass with highest Error was Nr.: " + subclassHighestError.getIndex());
 			numberOfOutputNeurons++;
 			rounds++;
-			roundsSinceHighestAccuracy++;
 
 			/*
 			System.out.println("Subclass-Errorlist: ");
@@ -219,6 +241,53 @@ public class AdaptiveModel {
 			 */
 
 		}
+
+		for(Subclass s : subclassList) {
+			s.resetError();
+			s.indexOfWrongPatterns.clear();
+		}
+
+		/**Testing the subclass network with test-data*/
+		PatternInfo actualPattern = trainingPatternInfoList.get(0);
+
+		for(int i = 0; i < testBoonePatterns.size(); i++){
+
+			neuron = net.getTrainer().getWinningNeuron(testBoonePatterns.getInputs().get(i));
+
+			int neuronIndex;
+			if(actualPattern.outputNeuronHashMap.containsKey(neuron))
+				neuronIndex = actualPattern.outputNeuronHashMap.get(neuron);
+			// error part
+			else {
+				for(Neuron n : actualPattern.outputNeuronHashMap.keySet())
+					System.out.println("Hashmap-Neuron: " + n.getBias());
+
+				throw new RuntimeException("Neuron does not exist in hashmap:  " + neuron.getBias());
+			}
+
+			Subclass winningSubclass = actualPattern.subclassPerTarget.get(neuronIndex);
+			int expectedSubclassIndex = xmlTestPatterns.getPosOfWinningNeuron(testBoonePatterns.getTargets().get(i));
+
+			subclassList.get(expectedSubclassIndex).increaseNumberOfUses();
+
+			if(expectedSubclassIndex != winningSubclass.getIndex())
+				subclassList.get(expectedSubclassIndex).increaseError();
+		}
+
+		/**Display results of tested subclass-network*/
+		subclassHighestError = null;
+		System.out.println("Results of tested subclass-network with test-dataset: ");
+		for(Subclass s : subclassList){
+			System.out.println("Subclass" + (s.getIndex()+1) + " - error-rate = " + s.errorRate());
+
+			if (subclassHighestError == null || subclassHighestError.errorRate() < s.errorRate())
+				subclassHighestError = s;
+		}
+
+		if (subclassHighestError != null)
+			System.out.println("\nNET ACCURACY = " + (1 - subclassHighestError.errorRate())*100 + "%");
+		else
+			System.out.println("NET ACCURACY = 100%");
 
 		/*
 		System.out.println("\n\n---- Coordinates Input-Neurons--------");
