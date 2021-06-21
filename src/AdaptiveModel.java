@@ -12,6 +12,10 @@ import java.util.List;
  */
 public class AdaptiveModel {
 
+	/** true, if we add a neuron to a new net with reseted values und train the same net again
+	 * 	false, if we create a new network with another output neuron for every training run */
+	static final boolean TRAIN_SAME_NET = true;
+
 	/**
 	 * @param args the command line arguments
 	 */
@@ -23,9 +27,9 @@ public class AdaptiveModel {
 		final int MIN_ROUNDS = 10;
 		final int ROUNDS_WITHOUT_HIGHEST_ACCURACY = 5;
 
-		int numberOfHiddenNeurons = 17; // with 0 hidden neurons we should get the biggest difference between ANN with subclasses and without subclasses
+		int numberOfHiddenNeurons = 6; // with 0 hidden neurons we should get the biggest difference between ANN with subclasses and without subclasses
 
-		int epochs = 250; //steps = 1
+		int epochs = 1000; //steps = 1
 
 		/**load Trainings-Dataset**/
 		xmlTrainingPatterns.loadXml(new File("Dataset/dataset_test"));
@@ -66,12 +70,23 @@ public class AdaptiveModel {
 
 			subclassHighestError = null;
 
-			net = NetFactory.createFeedForward(
-					new int[]{numberOfInputNeurons, numberOfHiddenNeurons, numberOfOutputNeurons},    //#input neurons, #hidden neurons, #output neuron
-					false,                                //net fully connected?
-					new boone.map.Function.Sigmoid(),        //activation-function
-					new RpropTrainer(),                      //Trainer
-					null, null);                //
+			if(!TRAIN_SAME_NET || rounds == 0) {
+				net = NetFactory.createFeedForward(
+						new int[]{numberOfInputNeurons, numberOfHiddenNeurons, numberOfOutputNeurons},    //#input neurons, #hidden neurons, #output neuron
+						false,                                //net fully connected?
+						new boone.map.Function.Sigmoid(),        //activation-function
+						new RpropTrainer(),                      //Trainer
+						null, null);
+			} else {
+				// add new neuron to net
+				Neuron neuronToCopy = net.getOutputNeuron(0);
+
+				Neuron newNeuron = neuronToCopy.clone();
+				newNeuron.reset();
+				//newNeuron.setBias(Math.random() * 0.2D - 0.1D); //random bias besser oder schlechter?
+				newNeuron.setName("Neuron" + rounds);
+				net.addNeuron(newNeuron);
+			}
 
 			// Initialization
 			PatternInfo patternInfo;
@@ -155,9 +170,9 @@ public class AdaptiveModel {
 				// error part
 				else {
 					for(Neuron n : actualPattern.outputNeuronHashMap.keySet())
-						System.out.println("Hashmap-Neuron: " + n.getBias());
+						System.out.println("Hashmap-Neuron: " + n.getName());
 
-					throw new RuntimeException("Neuron does not exist in hashmap:  " + neuron.getBias());
+					throw new RuntimeException("Neuron does not exist in hashmap:  " + neuron.getName());
 				}
 				expectedSubclass = actualPattern.subclassPerTarget.get(actualPattern.getIndexWithValueOne());
 				expectedSubclass.increaseNumberOfUses();
@@ -260,9 +275,9 @@ public class AdaptiveModel {
 			// error part
 			else {
 				for(Neuron n : actualPattern.outputNeuronHashMap.keySet())
-					System.out.println("Hashmap-Neuron: " + n.getBias());
+					System.out.println("Hashmap-Neuron: " + n.getName());
 
-				throw new RuntimeException("Neuron does not exist in hashmap:  " + neuron.getBias());
+				throw new RuntimeException("Neuron does not exist in hashmap:  " + neuron.getName());
 			}
 
 			Subclass winningSubclass = actualPattern.subclassPerTarget.get(neuronIndex);
