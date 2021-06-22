@@ -4,6 +4,7 @@ import boone.training.RpropTrainer;
 import boone.util.Conversion;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -62,6 +63,7 @@ public class AdaptiveModel {
 
 		int rounds = 0;
 		NeuralNet net = null;
+		NeuralNet bestNet = null;
 
 		PatternSet trainingBoonePatterns = new PatternSet();
 		PatternSet testBoonePatterns = new PatternSet();
@@ -242,6 +244,8 @@ public class AdaptiveModel {
 			if((1 - subclassHighestError.errorRate()) > actualHighestAccuracy){
 				actualHighestAccuracy = 1 - subclassHighestError.errorRate();
 				roundsSinceHighestAccuracy = 0;
+
+				bestNet = net;
 			} else
 				roundsSinceHighestAccuracy ++;
 
@@ -267,7 +271,7 @@ public class AdaptiveModel {
 
 		for(int i = 0; i < testBoonePatterns.size(); i++){
 
-			neuron = net.getTrainer().getWinningNeuron(testBoonePatterns.getInputs().get(i));
+			neuron = bestNet.getTrainer().getWinningNeuron(testBoonePatterns.getInputs().get(i));
 
 			int neuronIndex;
 			if(actualPattern.outputNeuronHashMap.containsKey(neuron))
@@ -332,7 +336,7 @@ public class AdaptiveModel {
 		}
 		*/
 
-		System.out.println("Printing the net:\n" + net);
+		System.out.println("Printing the net:\n" + bestNet);
 		System.out.println("Done.");
 	}
 
