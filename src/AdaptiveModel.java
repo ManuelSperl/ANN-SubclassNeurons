@@ -4,7 +4,6 @@ import boone.training.RpropTrainer;
 import boone.util.Conversion;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +27,7 @@ public class AdaptiveModel {
 		final int MIN_ROUNDS = 10;
 		final int ROUNDS_WITHOUT_HIGHEST_ACCURACY = 5;
 
-		int numberOfHiddenNeurons = 6; // with 0 hidden neurons we should get the biggest difference between ANN with subclasses and without subclasses
+		int numberOfHiddenNeurons = 17; // with 0 hidden neurons we should get the biggest difference between ANN with subclasses and without subclasses
 
 		int epochs = 1000; //steps = 1
 
@@ -52,6 +51,8 @@ public class AdaptiveModel {
 
 		double actualHighestAccuracy = 0.0;
 		int roundsSinceHighestAccuracy = 0;
+		double numberOfWrongOutputs;
+		double accuracyOfThisPatternSet;
 
 		System.out.println("*** Creating feed forward network...");
 
@@ -71,6 +72,7 @@ public class AdaptiveModel {
 		while(rounds < MIN_ROUNDS || roundsSinceHighestAccuracy <= ROUNDS_WITHOUT_HIGHEST_ACCURACY) {
 
 			subclassHighestError = null;
+			numberOfWrongOutputs = 0;
 
 			if(!TRAIN_SAME_NET || rounds == 0) {
 				net = NetFactory.createFeedForward(
@@ -200,6 +202,7 @@ public class AdaptiveModel {
 				}
 				// wrong subclass won
 				else {
+					numberOfWrongOutputs++;
 					expectedSubclass.increaseError();
 					//System.out.println("WRONG SUBCLASS");
 					if(subclassHighestError == null || expectedSubclass.errorRate() > subclassHighestError.errorRate())
@@ -241,15 +244,17 @@ public class AdaptiveModel {
 				}
 			}
 
-			if((1 - subclassHighestError.errorRate()) > actualHighestAccuracy){
-				actualHighestAccuracy = 1 - subclassHighestError.errorRate();
+			accuracyOfThisPatternSet = 1 - (numberOfWrongOutputs / (double) trainingBoonePatterns.size());
+
+			if(accuracyOfThisPatternSet > actualHighestAccuracy){
+				actualHighestAccuracy = accuracyOfThisPatternSet;
 				roundsSinceHighestAccuracy = 0;
 
 				bestNet = net;
 			} else
 				roundsSinceHighestAccuracy ++;
 
-			System.out.println("Round " + rounds + ": net accuracy = " + (1-subclassHighestError.errorRate())*100 + "%" + "   Subclass with highest Error was Nr.: " + subclassHighestError.getIndex());
+			System.out.println("Round " + rounds + ": net accuracy = " + accuracyOfThisPatternSet*100 + "%" + "   Subclass with highest Error was Nr.: " + subclassHighestError.getIndex());
 			numberOfOutputNeurons++;
 			rounds++;
 
@@ -265,6 +270,8 @@ public class AdaptiveModel {
 			s.resetError();
 			s.indexOfWrongPatterns.clear();
 		}
+
+		numberOfWrongOutputs = 0;
 
 		/**Testing the subclass network with test-data*/
 		PatternInfo actualPattern = trainingPatternInfoList.get(0);
@@ -289,8 +296,10 @@ public class AdaptiveModel {
 
 			subclassList.get(expectedSubclassIndex).increaseNumberOfUses();
 
-			if(expectedSubclassIndex != winningSubclass.getIndex())
+			if(expectedSubclassIndex != winningSubclass.getIndex()) {
 				subclassList.get(expectedSubclassIndex).increaseError();
+				numberOfWrongOutputs++;
+			}
 		}
 
 		/**Display results of tested subclass-network*/
@@ -303,10 +312,12 @@ public class AdaptiveModel {
 				subclassHighestError = s;
 		}
 
-		if (subclassHighestError != null)
-			System.out.println("\nNET ACCURACY = " + (1 - subclassHighestError.errorRate())*100 + "%");
-		else
-			System.out.println("NET ACCURACY = 100%");
+		accuracyOfThisPatternSet = 1 - (double) (numberOfWrongOutputs / testBoonePatterns.size());
+		System.out.println("\nNET ACCURACY = " + accuracyOfThisPatternSet*100 + "%");
+
+		System.out.println("Number of Targets: " + testBoonePatterns.size());
+		System.out.println("Number of Errors: " + numberOfWrongOutputs);
+		//System.out.println("% of correct subclass recognition: " + (100 - ((double)(nrOfError / testBoonePatterns.size()) * 100)) + "%");
 
 		/*
 		System.out.println("\n\n---- Coordinates Input-Neurons--------");
