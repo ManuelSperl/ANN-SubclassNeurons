@@ -5,12 +5,14 @@ public class Subclass {
     private int error;
     private int numberOfUses;
     public ArrayList<Integer> indexOfWrongPatterns;
+    private int numberOfSubclasses;
 
     public Subclass(int index) {
         this.index = index;
         this.error = 0;
         this.numberOfUses = 0;
         this.indexOfWrongPatterns = new ArrayList<>();
+        this.numberOfSubclasses = 1;
     }
 
     public int getIndex() {
@@ -33,5 +35,13 @@ public class Subclass {
     public void resetError(){
         this.error=0;
         this.numberOfUses=0;
+    }
+
+    public int getNumberOfSubclasses() {
+        return numberOfSubclasses;
+    }
+
+    public void increaseNumberOfSubclasses() {
+        this.numberOfSubclasses++;
     }
 }

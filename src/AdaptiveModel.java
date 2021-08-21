@@ -14,7 +14,7 @@ public class AdaptiveModel {
 
 	/** true, if we add a neuron to a new net with reseted values und train the same net again
 	 * 	false, if we create a new network with another output neuron for every training run */
-	static final boolean TRAIN_SAME_NET = true;
+	static final boolean TRAIN_SAME_NET = false;
 
 	/**
 	 * @param args the command line arguments
@@ -242,6 +242,7 @@ public class AdaptiveModel {
 
 					trainingPatternInfoList.get(i).subclassPerTarget.add(subclassHighestError);
 				}
+				subclassHighestError.increaseNumberOfSubclasses();
 			}
 
 			accuracyOfThisPatternSet = 1 - (numberOfWrongOutputs / (double) trainingBoonePatterns.size());
@@ -306,7 +307,7 @@ public class AdaptiveModel {
 		subclassHighestError = null;
 		System.out.println("Results of tested subclass-network with test-dataset: ");
 		for(Subclass s : subclassList){
-			System.out.println("Subclass" + (s.getIndex()+1) + " - error-rate = " + s.errorRate());
+			System.out.println("Class" + (s.getIndex()+1) + " - error-rate = " + s.errorRate() + " - Number of Subclasses: " + s.getNumberOfSubclasses());
 
 			if (subclassHighestError == null || subclassHighestError.errorRate() < s.errorRate())
 				subclassHighestError = s;
@@ -317,6 +318,7 @@ public class AdaptiveModel {
 
 		System.out.println("Number of Targets: " + testBoonePatterns.size());
 		System.out.println("Number of Errors: " + numberOfWrongOutputs);
+
 		//System.out.println("% of correct subclass recognition: " + (100 - ((double)(nrOfError / testBoonePatterns.size()) * 100)) + "%");
 
 		/*
